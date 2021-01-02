@@ -1,0 +1,99 @@
+hearder {
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(90deg, #fff, #0f0);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hearder {
+    display: block;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+}
+
+.header-left {
+    float: left;
+}
+<!--後で-->
+.logo {
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.taitl {
+    font-size: 25px;
+    float:right;
+    margin-left: 8px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.header-right {
+    float: right;
+    margin-right: -10px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+  .top-wrapper {
+      padding:180px 0px 100px 0px;
+      background-image: url(https://pixabay.com/get/57e6dc404c5aa514f6d1867dda3536781536dbec56507740_1920.jpg?attachment=);
+      background-size: cover;
+      color: white;
+      text-align: center;
+  }
+
+  .top-wrapper h1{
+      opacity: 0.8;
+      letter-spacing: 5px;
+
+  }
+
+  .btn {
+      padding: 8px 24px;
+      
+  }
+
+  .facebook {
+      color: #3b5998;
+  }
+
+  .twitter {
+      color: #55acee;
+      
+  }
+
