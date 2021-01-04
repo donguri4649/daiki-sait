@@ -58,6 +58,10 @@ div {
   transition: all 0.5s;
 }
 
+.header-right a:hover{
+  background-color:#008000;
+}
+
 a {
   text-decoration: none;
 }
@@ -72,6 +76,7 @@ body {
   background-image: url(https://pixabay.com/get/57e6dc404c5aa514f6d1867dda3536781536d9e75654704c_1920.jpg?attachment=);
   background-size: cover;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -111,11 +116,12 @@ body {
 }
 
 .a1{
-    animation-name: a1;
-    animation-duration: 2s;
-    animation-delay:1s;
-    animation-fill-mode:both;
-    color: #fff;
+  font-size: 50px;
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay:1s;
+  animation-fill-mode:both;
+  color: rgb(253, 252, 252);
 }
 
 @keyframes a2 {
@@ -144,11 +150,12 @@ body {
 }
 
 .a2{
+  font-size: 45px;
   animation-name: a2;
   animation-duration: 2s;
   animation-delay:3s;
   animation-fill-mode:both;
-  color: #fff;
+  color: rgb(252, 250, 250);
 }
 
 .PROFILE-wrapper {
@@ -168,22 +175,135 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   float: left;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .PROFILE-box {
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
   margin-top:50px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .name {
   float: left;
   margin: 7px 0px 0px 20px;
   font-size: 40px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .namae {
   font-size: 30px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .P1 {
   font-size: 50px;
 }
+
+.card-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.PORTFOLIO-desc-title {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 40px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.PORTFOLIO-desc p{
+  font-family: "Comic Sans MS";
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.botan{
+  width: 200px;
+  height: 100px;
+  margin-left: 40px;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.botan:hover{
+  background-color:#3f413f;
+}
+
+.botan:active{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  box-shadow: none;
+}
+
+.section {
+  display: block;
+}
+
+@media screen and (max-width: 767px;)
+.section .inner {
+  padding: 30px 15px;
+}
+
+.section .inner {
+  padding: 80px 10px;
+}
+
+.inner{
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 767px;)
+.section .section-title-block {
+  margin-bottom: 10px;
+}
+
+ .section .section-title-blok {
+   text-align: center;
+ }
+
+ @media screen and (max-width: 767px;)
+ .section .section-title {
+   font-size: 36px;
+ }
+
+.section .section-title{
+  letter-spacing: -0.01em;
+  display: inline-block;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+
+
+
