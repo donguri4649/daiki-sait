@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 hearder {
   height: 65px;
   width: 100%;
