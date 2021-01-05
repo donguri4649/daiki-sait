@@ -21,6 +21,17 @@ hearder {
   display: block;
 }
 
+a:hover .nomal{
+  display: none;
+  }
+
+a .hover{
+  display: none;
+  }
+a:hover .hover{
+  display: inline;
+  }
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -76,7 +87,7 @@ body {
 }
 
 .top-wrapper {
-  padding:180px 0px 100px 0px;
+  padding:180px 0px 180px 0px;
   background-image: url(https://cdn.pixabay.com/photo/2016/09/25/13/00/sofa-1693689_960_720.jpg);
   background-size: cover;
   text-align: center;
@@ -123,9 +134,9 @@ body {
   font-size: 50px;
   animation-name: a1;
   animation-duration: 2s;
-  animation-delay:1s;
+  animation-delay:0.5s;
   animation-fill-mode:both;
-  color: rgb(253, 252, 252);
+  color: rgba(73, 248, 4, 0.8);
 }
 
 @keyframes a2 {
@@ -159,7 +170,7 @@ body {
   animation-duration: 2s;
   animation-delay:3s;
   animation-fill-mode:both;
-  color: rgb(252, 250, 250);
+  color: rgba(64, 250, 8, 0.8);
 }
 
 .PROFILE-wrapper {
@@ -307,9 +318,6 @@ body {
   margin-bottom: 10px;
   color: #444;
 }
-
-
-
 
 
 
