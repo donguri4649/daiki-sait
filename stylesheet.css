@@ -73,7 +73,7 @@ body {
 
 .top-wrapper {
   padding:180px 0px 100px 0px;
-  background-image: url(https://pixabay.com/get/57e6dc404c5aa514f6d1867dda3536781536d9e75654704c_1920.jpg?attachment=);
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/25/13/00/sofa-1693689_960_720.jpg);
   background-size: cover;
   text-align: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -181,7 +181,7 @@ body {
 .PROFILE-box {
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
-  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
@@ -220,7 +220,7 @@ body {
 .card {
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
-  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 20px;
 }
@@ -303,6 +303,9 @@ body {
   margin-bottom: 10px;
   color: #444;
 }
+
+
+
 
 
 
