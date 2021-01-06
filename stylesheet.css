@@ -28,9 +28,42 @@ a:hover .nomal{
 a .hover{
   display: none;
   }
+
 a:hover .hover{
   display: inline;
+  animation-name: a1;
+  animation-duration: 0.5s;
+  animation-delay:0.01s;
+  animation-fill-mode:both;
+  color: rgb(249, 252, 248);
   }
+
+.a1:hover .hover{
+  display: inline;
+  animation-name: a1;
+  animation-duration: 0.5s;
+  animation-delay:0.01s;
+  animation-fill-mode:both;
+  color: rgb(74, 241, 8);
+  }
+
+.a1:hover .hover{
+  display: inline;
+  animation-name: a1;
+  animation-duration: 0.5s;
+  animation-delay:0.01s;
+  animation-fill-mode:both;
+  color: rgb(74, 241, 8);
+  }
+
+  .a2:hover .hover{
+    display: inline;
+    animation-name: a1;
+    animation-duration: 0.5s;
+    animation-delay:0.01s;
+    animation-fill-mode:both;
+    color: rgb(74, 241, 8);
+    }
 
 .container {
   max-width: 1170px;
@@ -46,8 +79,6 @@ div {
 .header-left {
   float: left;
 }
-
-
 
 .taitl {
   font-size: 30px;
@@ -229,7 +260,6 @@ body {
   margin: 0 auto;
   padding: 20px 0;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .card {
@@ -238,16 +268,27 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 20px;
+  margin: 10px;
 }
 
-.PORTFOLIO-desc-title {
+.card-1 {
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  float: right;
+}
+
+.WORKS-desc-title {
   text-align: center;
   font-family: "Comic Sans MS";
   font-size: 40px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.PORTFOLIO-desc p{
+.WORKS-desc p{
   font-family: "Comic Sans MS";
   margin: 0 auto;
   padding: 20px 0;
@@ -260,7 +301,6 @@ body {
   height: 100px;
   margin-left: 40px;
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -319,6 +359,31 @@ body {
   color: #444;
 }
 
+#footer {
+  background-color: #333;
+}
 
 
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#footer .copyright {
+  font-size: 10px;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+.footer-link {
+  text-align: center;
+}
+
+.footer-list {
+  font-size: 10px;
+  color: rgb(249, 252, 248);
+}
 
