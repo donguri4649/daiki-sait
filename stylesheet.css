@@ -259,7 +259,7 @@ body {
 .a1{
   font-size: 50px;
   animation-name: a1;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay:0.5s;
   animation-fill-mode:both;
   color: rgb(250, 249, 249);
@@ -294,8 +294,8 @@ body {
 .a2{
   font-size: 45px;
   animation-name: a2;
-  animation-duration: 2s;
-  animation-delay:3s;
+  animation-duration: 1s;
+  animation-delay:1.7s;
   animation-fill-mode:both;
   color: rgb(252, 249, 249);
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
