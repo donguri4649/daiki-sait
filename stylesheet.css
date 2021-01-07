@@ -139,7 +139,7 @@ a:hover .hover{
   animation-duration: 0.5s;
   animation-delay:0.01s;
   animation-fill-mode:both;
-  color: rgb(74, 241, 8);
+  color: rgb(252, 250, 250);
   }
 
 .a1:hover .hover{
@@ -148,7 +148,7 @@ a:hover .hover{
   animation-duration: 0.5s;
   animation-delay:0.01s;
   animation-fill-mode:both;
-  color: rgb(74, 241, 8);
+  color: rgb(253, 253, 253);
   }
 
   .a2:hover .hover{
@@ -157,7 +157,7 @@ a:hover .hover{
     animation-duration: 0.5s;
     animation-delay:0.01s;
     animation-fill-mode:both;
-    color: rgb(74, 241, 8);
+    color: rgb(255, 254, 254);
     }
 
 .container {
@@ -262,7 +262,8 @@ body {
   animation-duration: 2s;
   animation-delay:0.5s;
   animation-fill-mode:both;
-  color: rgba(73, 248, 4, 0.8);
+  color: rgb(250, 249, 249);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 @keyframes a2 {
@@ -296,7 +297,8 @@ body {
   animation-duration: 2s;
   animation-delay:3s;
   animation-fill-mode:both;
-  color: rgba(64, 250, 8, 0.8);
+  color: rgb(252, 249, 249);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 .PROFILE-wrapper {
@@ -306,6 +308,10 @@ body {
 }
 
 .PROFILE-wrapper h2 {
+  margin-top: 45px;
+}
+
+.WORKS-wrapper h2 {
   margin-top: 45px;
 }
 
