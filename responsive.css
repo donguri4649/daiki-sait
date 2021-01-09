@@ -1,6 +1,10 @@
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
 
+    .card-1 {
+        clear: right;
+    }
+
     html {
         width:670px;
     }
