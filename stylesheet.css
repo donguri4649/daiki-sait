@@ -69,6 +69,42 @@ mark {
    font-weight:bold;
 }
 
+/*--ローディング*/
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: #0bd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
 del {
   text-decoration: line-through;
 }
@@ -107,7 +143,6 @@ hearder {
 }
 
 * {
-  box-sizing: border-box;
   font-family: "ＭＳ Ｐ明朝";
   font-weight: bold;
 }
@@ -148,7 +183,7 @@ a:hover .hover{
   animation-duration: 0.5s;
   animation-delay:0.01s;
   animation-fill-mode:both;
-  color: rgb(253, 253, 253);
+  color: rgb(7, 7, 7);
   }
 
   .a2:hover .hover{
@@ -157,7 +192,7 @@ a:hover .hover{
     animation-duration: 0.5s;
     animation-delay:0.01s;
     animation-fill-mode:both;
-    color: rgb(255, 254, 254);
+    color: rgb(7, 7, 7);
     }
 
 .container {
@@ -181,6 +216,13 @@ div {
   margin: 20px 0px 10px 10px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 
+}
+
+.text {
+  font-size: 20px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 50px 50px 0px 50px;
+  letter-spacing: 10px;
 }
 
 .header-right {
@@ -262,8 +304,8 @@ body {
   animation-duration: 1s;
   animation-delay:0.5s;
   animation-fill-mode:both;
-  color: rgb(250, 249, 249);
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  color: rgb(2, 2, 2);
+  text-shadow: 5px 5px 10px rgba(252, 251, 251, 0.8);
 }
 
 @keyframes a2 {
@@ -297,19 +339,28 @@ body {
   animation-duration: 1s;
   animation-delay:1.7s;
   animation-fill-mode:both;
-  color: rgb(252, 249, 249);
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  color: rgb(7, 7, 7);
+  text-shadow: 5px 5px 10px rgba(252, 250, 250, 0.8);
 }
 
 .PROFILE-wrapper {
-  padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
 }
 
+.SKILL-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.SKILL-wrapper h2 {
+  margin-top: 45px;
+}
+
 .PROFILE-wrapper h2 {
   margin-top: 45px;
-} 
+}
 
 .WORKS-wrapper h2 {
   margin-top: 45px;
@@ -327,8 +378,6 @@ body {
 
 .PROFILE-box {
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
@@ -340,7 +389,7 @@ body {
 }
 
 .name {
-  float: left;
+  float: right;
   margin: 7px 0px 0px 20px;
   font-size: 40px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -348,6 +397,7 @@ body {
 }
 
 .namae {
+  float: right;
   font-size: 30px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -357,6 +407,13 @@ body {
 }
 
 .card-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+}
+
+.card-wrapper-1{
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
@@ -382,6 +439,14 @@ body {
   float: right;
 }
 
+.SKILL-desc-title {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 40px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
 .WORKS-desc-title {
   text-align: center;
   font-family: "Comic Sans MS";
@@ -393,8 +458,22 @@ body {
   font-family: "Comic Sans MS";
   margin: 0 auto;
   padding: 20px 0;
-  text-align: center;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.table th {
+  padding: 12px;
+  font-weight: 900;
+}
+
+.table td {padding: 12px;
+  font-weight: 500;
 }
 
 .botan{
