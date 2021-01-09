@@ -19,6 +19,11 @@
     </head>
 
     <body>
+        <!--ローディング画面-->
+        <div id="loading">
+            <div class="spinner"></div>
+          </div>
+
         <hearder>
             <div class="container">
                 <div class="header-left">
@@ -30,6 +35,11 @@
                 <i class="fas fa-leaf"></i>
                 <span class="nomal">PROFILE</span>
                 <span class="hover" style="font-family: HGP行書体">プロフィール</span>
+                </a>
+                <a href="#SKILL">
+                <i class="fas fa-leaf"></i>
+                <span class="nomal">SKILL</span>
+                <span class="hover" style="font-family: HGP行書体">スキル</span>
                 </a>
                 <a href="#WORKS">
                 <i class="fas fa-leaf"></i>
@@ -43,7 +53,8 @@
                 </a>
             </nav>
         </hearder>
-        <div class="top-wrapper">
+        <main>
+        <section class="top-wrapper">
             <div class="container">
                 <p>
                 <a href="#" class="a1">
@@ -59,8 +70,8 @@
                 </a>
                 </p>
             </div>
-        </div>
-        <div class="PROFILE-wrapper">
+        </section>
+        <section class="PROFILE-wrapper">
             <div class="container">
                 <div class="heading">
                     <h2 id="PROFILE">
@@ -79,10 +90,59 @@
                             <rb>大樹</rb><rt>だいき</rt><rt>daiki</rt>
                         </ruby>
                     </div>
+                    <p class="text">
+                        はじめまして。平成8年生まれ、兵庫在住、24歳の村上です。
+                        <br>大学卒業後、ソフトウェア設計の仕事を経験しITについて勉強していくうちにWEBアプリを作りたい‼WEBエンジニアになりたい‼と思い転職を決意しました。
+                        <br>現在仕事をしながらHTML・CSS・Javascripteの勉強をし、WEBサイトを作成しています。
+                    </p>
                 </div>
             </div>
-        </div>
-        <div class="WORKS-wrapper ">
+        </section>
+        <section class="SKILL-wrapper">
+            <div class="container">
+                <div class="heading">
+                    <h2 id="SKILL">
+                        <i class="fas fa-paperclip"></i>
+                    </h2>
+                    <h2 class="P1 sa sa--up">
+                       <i class="fas fa-lightbulb"></i> SKILL
+                    </h2>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card sa sa--up">
+                        <div class="SKILL-desc">
+                            <h3 class="SKILL-desc-title">
+                                <i class="fas fa-desktop"></i> 
+                                デザイン・コーディング
+                            </h3>
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">技術</th>
+                                        <th scope="col">経験期間</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">HTML5</th>
+                                        <td>3ヶ月</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">CSS3</th>
+                                        <td>3ヶ月</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Javascripte</th>
+                                        <td>2ヶ月</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="WORKS-wrapper ">
             <div class="container">
                 <div class="heading">
                     <h2 id="WORKS">
@@ -90,7 +150,7 @@
                     </h2>
                     <h2 class="P1 sa sa--up" >
                     <i class="fas fa-tasks "></i> WORKS
-                </h2>
+                    </h2>
                 </div>
                 <div class="card-wrapper">
                     <div class="card sa sa--up">
@@ -99,7 +159,8 @@
                                 <i class="fas fa-desktop"></i> 
                                 first work
                             </h3>
-                            <p>Progateと言う学習サイトを使い作りました。制作期間は3日です。HTML/CSSの基本を学ぶために作成しました。</p>
+                            <p>Progateと言う学習サイトを使い作りました。HTML・CSSを使っています。<br>制作期間は3日です。
+                                HTML/CSSの基本を学ぶために作成しました。</p>
                             <a href="https://donguri4649.github.io/donguri/">
                                 <img class="botan" src="無題.png">
                             </a>
@@ -111,8 +172,9 @@
                                 <i class="fas fa-desktop"></i> 
                                 Second　Work
                             </h3>
-                            <p>Progateと言う学習サイトを使い作りました。制作期間は3日です。HTML/CSSの基本を学ぶために作成しました。</p>
-                            <a href="https://donguri4649.github.io/donguri/">
+                            <p>今アクセスしているポートフォリオサイトです。HTML・CSS・Javascripteを使っています。first workとポートフォリオサイトの作品を参考に作りました。<br>制作期間は一週間です。
+                                こだわったところは、<code>top</code>と<code>header</code>部分のアニメーションです。<br>反省点は後から要素をどんどん追加したのでコードが読みにくくなっています。次に作るサイトは計画を立てて制作しようと思います。</p>
+                            <a href="https://donguri4649.github.io/daiki-sait/">
                                 <img class="botan" src="無題1.png">
                             </a>
                         </div>
@@ -121,7 +183,7 @@
 
             </div>
 
-        </div>
+        </section>
         <h2 id="CONTACT">
             <i class="fas fa-paperclip" style="margin-left: 20px;"></i>
         </h2>
@@ -147,18 +209,22 @@
                 </div>
             </div>
         </section>
+        </main>
         <footer id="footer">
             <div class="iner">
                 <nav class="footer-link">
                     <a href="#PROFILE">
-                        <span class="footer-list">&nbsp;PROFILE</span>
-                        </a>
-                        <a href="#WORKS">
-                        <span class="footer-list">&nbsp;WORKS</span>
-                        </a>
-                        <a href="#CONTACT">
-                        <span class="footer-list">&nbsp;CONTACT</span>
-                        </a>
+                    <span class="footer-list">&nbsp;PROFILE</span>
+                    </a>
+                    <a href="#SKILL">
+                    <span class="footer-list">&nbsp;SKILL</span>
+                    </a>
+                    <a href="#WORKS">
+                    <span class="footer-list">&nbsp;WORKS</span>
+                    </a>
+                    <a href="#CONTACT">
+                    <span class="footer-list">&nbsp;CONTACT</span>
+                    </a>
                 </nav>
                 <p class="copyright">COPYRIGHT © 村上 大樹 ALL RIGHTS RESERVED</p>
             </div>
