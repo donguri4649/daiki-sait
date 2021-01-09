@@ -147,9 +147,6 @@ hearder {
   font-weight: bold;
 }
 
-hearder {
-  display: block;
-}
 
 a:hover .nomal{
   display: none;
@@ -378,7 +375,6 @@ body {
 
 .PROFILE-box {
   background-clip: border-box;
-  width: 80%;
   margin: 0 auto;
   padding: 20px 0;
   display: flex;
